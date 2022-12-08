@@ -1,0 +1,16 @@
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+p{
+  font-size: 20px;
+}
+
+button {
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 4px;
+  border: 1px solid;
+}
