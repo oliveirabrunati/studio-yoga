@@ -1,0 +1,79 @@
+.section-two {
+  background-color: var(--gray1);
+}
+
+.card-aulas {
+  background-color: var(--white);
+  padding: 30px 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.card-aulas img{
+  display: none;
+}
+
+.card-aulas a {
+  font-weight: 600;
+  color: var(--green);
+}
+
+.horario-aula {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.horario-aula span {
+  font-weight: 600;
+}
+
+.horario-aula span::before {
+  content: url("/image/horario-aula.svg");
+  position: relative;
+  right: 5px;
+  top: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-two .container {
+    width: auto;
+  }
+  .card-aulas a {
+    font-size: x-large;
+  }
+  .horario-aula span {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: x-large;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section-two .container {
+    margin: 0 65px;
+    padding: 50px 0;
+  }
+  .cards{
+    display: flex;
+    gap: 40px;
+  }
+  .card-aulas{
+    padding: 0;
+    background-color: var(--gray1);
+  }
+  .card-aulas img{
+    display: block;
+  }
+  .horario-aula{
+    margin-top: 20px;
+  }
+  .horario-aula span{
+    font-size: 16px;
+  }
+  .horario-aula span::before{
+    right: 4px;
+  }
+}

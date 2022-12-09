@@ -19,19 +19,19 @@ header {
   font-weight: bold;
 }
 
+.container {
+  padding: 30px 35px;
+}
+
+.container p {
+  margin-bottom: 30px;
+}
+
 #icon-menu {
   display: block;
   /* background-color: var(--brown); */
   /* color: var(--white); */
   cursor: pointer;
-}
-
-.container {
-  margin: 30px 35px;
-}
-
-.container p {
-  margin-bottom: 30px;
 }
 
 .cta-button {
@@ -64,9 +64,16 @@ header {
   .menu a {
     display: inline-block;
     border-top: none;
+    font-size: 24px;
   }
   .logo {
     padding: 10px 0;
+  }
+  h1, h2{
+    font-size: 36px;
+  }
+  p, button{
+    font-size: 24px;
   }
 }
 
@@ -74,7 +81,7 @@ header {
   header{
     background-color: transparent;
     justify-content: space-between;
-    margin: 0 85px;
+    margin: 0 65px;
   }
   .img-section-one{
     display: none;
@@ -85,21 +92,8 @@ header {
     background-repeat: no-repeat;
     height: 700px;
   }
-  .menu a{
-    font-size: 24px;
-  }
   .container{
     width: 450px;
-    margin: 190px 0 0 85px;
+    margin: 160px 30px;
   }
-  h1, h2{
-    font-size: 36px;
-  }
-  p, button{
-    font-size: 24px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  
 }
