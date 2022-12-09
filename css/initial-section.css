@@ -83,10 +83,10 @@ header {
     justify-content: space-between;
     margin: 0 65px;
   }
-  .img-section-one{
+  .img-initial-section{
     display: none;
   }
-  .section-one{
+  .initial-section{
     background-image: url('/image/bg-section-one-desktop.png');
     background-size: cover;
     background-repeat: no-repeat;

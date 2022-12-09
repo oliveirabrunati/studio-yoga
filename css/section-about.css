@@ -1,0 +1,19 @@
+.section-about h2{
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .section-about .container{
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin: 30px;
+    gap: 40px;
+  }
+  .section-about-img{
+    flex-basis: 50%;
+  }
+  .section-about-content{
+    flex-basis: 50%;
+  }
+}

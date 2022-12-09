@@ -1,4 +1,4 @@
-.section-two {
+.services-section {
   background-color: var(--gray1);
 }
 
@@ -37,7 +37,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .section-two .container {
+  .services-section .container {
     width: auto;
   }
   .card-aulas a {
@@ -52,7 +52,7 @@
 }
 
 @media screen and (min-width: 992px) {
-  .section-two .container {
+  .services-section .container {
     margin: 0 65px;
     padding: 50px 0;
   }

@@ -1,5 +1,6 @@
 @import './variables.css';
 @import './normalize.css';
 @import './global.css';
-@import './section-one.css';
-@import './section-two.css';
+@import './initial-section.css';
+@import './services-section.css';
+@import '/css/section-about.css';
