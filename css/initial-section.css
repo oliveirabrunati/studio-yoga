@@ -70,10 +70,10 @@ header {
     padding: 10px 0;
   }
   h1, h2{
-    font-size: 36px;
+    /* font-size: 36px; */
   }
   p, button{
-    font-size: 24px;
+    /* font-size: 24px; */
   }
 }
 
