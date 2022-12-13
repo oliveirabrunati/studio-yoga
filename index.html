@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="./css/style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="/js/script.js"></script>
+  <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
   <title>Studio Chandrasana</title>
 </head>
 <body onresize="mudarTamanho()">
@@ -82,7 +84,7 @@
   <section class="contact-section" id="contact">
     <div class="container">
       <div class="col-map">
-  
+        <div id="map"></div>
       </div>
       <div class="col-form">
         <h2>Agende sua aula</h2>
@@ -110,16 +112,18 @@
     </div>
   </section>
   <footer>
+    <hr>
     <div class="footer-container">
-      <hr>
       <div class="social-networks">
         <img src="/image/facebook.svg" alt="">
         <img src="/image/instagram.svg" alt="">
         <img src="/image/linkedIn.svg" alt="">
       </div>
-      <a href="">2022 Chandrasana</a>
-      <a href="">Termos de Uso</a>
-      <a href="">Política de Privacidade</a>
+      <div class="institucional">
+        <a href="">2022 Chandrasana</a>
+        <a href="">Termos de Uso</a>
+        <a href="">Política de Privacidade</a>
+      </div>
     </div>
   </footer>
 </body>
