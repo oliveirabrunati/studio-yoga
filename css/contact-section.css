@@ -1,0 +1,79 @@
+.contact-section{
+  background-color: var(--gray1);
+}
+
+.col-map{
+  background-color: var(--white);
+  width: 300px;
+  height: 267px;
+}
+
+.col-form{
+  background-color: var(--white);
+  padding: 20px;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario input{
+  width: 100%;
+  height: 35px;
+}
+
+.formulario button{
+  color: var(--white);
+  background-color: var(--green);
+  border-color: var(--green);
+}
+
+.input-group{
+  position: relative;
+}
+
+.input-group input, textarea{
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 10px;
+  outline: none;
+  border: 2px solid var(--gray2);
+  border-radius: 4px;
+}
+
+.input-group label{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 14px;
+  color: #66738A;
+  transition: 0.5s;
+}
+
+.input-group input:focus, textarea:focus{
+  border: 2px solid var(--green);
+}
+.input-group input:focus ~ label, textarea:focus ~ label{
+  top: -18px;
+  left: 1px;
+  font-size: 14px;
+  color: var(--brown);
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 35px 30px;
+  gap: 10px;
+}
+
+.rodape a{
+  font-weight: 700;
+}
+
+.social-networks{
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
