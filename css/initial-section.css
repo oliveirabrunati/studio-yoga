@@ -1,6 +1,9 @@
 .logo {
   text-align: right;
   padding: 10px 20px;
+  position: absolute;
+  right: 10px;
+  top: 3px;
 }
 
 header {
@@ -9,9 +12,9 @@ header {
 
 .menu a {
   display: block;
-  padding: 10px;
+  padding: 10px 30px;
   border-top: 1px solid var(--gray2);
-  text-align: center;
+  text-align: left;
 }
 
 .menu a:hover {
@@ -29,8 +32,7 @@ header {
 
 #icon-menu {
   display: block;
-  /* background-color: var(--brown); */
-  /* color: var(--white); */
+  padding: 15px 30px;
   cursor: pointer;
 }
 

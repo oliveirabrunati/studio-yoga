@@ -59,12 +59,19 @@
 .input-group input:focus, textarea:focus{
   border: 2px solid var(--green);
 }
+
 .input-group input:focus ~ label, textarea:focus ~ label{
-  top: -18px;
-  left: 1px;
   font-size: 14px;
   color: var(--brown);
 }
+
+.input-group input:focus + label,
+textarea:focus + label,
+input:not(:placeholder-shown) + label,
+textarea:not(:placeholder-shown) + label{
+  top: -18px;
+  left: 1px;
+} 
 
 .rodape a{
   font-weight: 700;
