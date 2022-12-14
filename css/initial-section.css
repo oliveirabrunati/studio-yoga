@@ -69,7 +69,7 @@ header {
     font-size: 24px;
   }
   .logo {
-    padding: 10px 0;
+    padding: 25px 50px;
   }
   h1, h2{
     /* font-size: 36px; */
@@ -83,7 +83,7 @@ header {
   header{
     background-color: transparent;
     justify-content: space-between;
-    margin: 0 65px;
+    margin: 0 35px;
   }
   .img-initial-section{
     display: none;
