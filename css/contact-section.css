@@ -103,11 +103,14 @@ textarea:not(:placeholder-shown) + label{
     padding: 0 30px;
   }
   .col-map{
-    width: 54%;
+    width: 50%;
     height: auto;
   }
   #map{
     height: 591px;
+  }
+  .col-form{
+    width: 50%;
   }
   .institucional{
     width: 600px;
