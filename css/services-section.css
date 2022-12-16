@@ -15,7 +15,7 @@
 
 .card-aulas a {
   font-weight: 600;
-  color: var(--primary-color);
+  color: var(--link);
 }
 
 .horario-aula {

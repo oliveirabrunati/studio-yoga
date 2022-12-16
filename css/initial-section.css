@@ -38,7 +38,8 @@ header {
 
 .cta-button {
   background-color: var(--primary-color);
-  color: var(--bg-2);
+  border-color: var(--primary-color);
+  color: var(--button-text);
 }
 
 .kw-button {
