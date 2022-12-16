@@ -1,3 +1,6 @@
+.section-about{
+  background-color: var(--bg-2);
+}
 .section-about h2{
   margin-top: 20px;
 }
@@ -7,7 +10,8 @@
     display: flex;
     align-items: center;
     width: auto;
-    margin: 30px;
+    margin: 0px;
+    padding: 50px;
     gap: 40px;
   }
   .section-about-img{

@@ -1,9 +1,9 @@
 .services-section {
-  background-color: var(--gray1);
+  background-color: var(--bg-1);
 }
 
 .card-aulas {
-  background-color: var(--white);
+  background-color: var(--bg-2);
   padding: 30px 20px;
   border-radius: 4px;
   margin-bottom: 20px;
@@ -15,7 +15,7 @@
 
 .card-aulas a {
   font-weight: 600;
-  color: var(--green);
+  color: var(--primary-color);
 }
 
 .horario-aula {
@@ -44,7 +44,7 @@
     font-size: x-large;
   }
   .horario-aula span {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   h3 {
     font-size: x-large;
@@ -62,7 +62,7 @@
   }
   .card-aulas{
     padding: 0;
-    background-color: var(--gray1);
+    background-color: var(--bg-1);
   }
   .card-aulas img{
     display: block;
@@ -71,7 +71,7 @@
     margin-top: 20px;
   }
   .horario-aula span{
-    font-size: 16px;
+    font-size: 1rem;
   }
   .horario-aula span::before{
     right: 4px;

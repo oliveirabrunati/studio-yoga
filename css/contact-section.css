@@ -1,15 +1,15 @@
 .contact-section{
-  background-color: var(--gray1);
+  background-color: var(--bg-1);
 }
 
 .col-map{
-  background-color: var(--white);
+  background-color: var(--bg-2);
   width: 100%;
   height: 267px;
 }
 
 .col-form{
-  background-color: var(--white);
+  background-color: var(--bg-2);
   padding: 20px;
 }
 
@@ -29,9 +29,9 @@
 }
 
 .formulario button{
-  color: var(--white);
-  background-color: var(--green);
-  border-color: var(--green);
+  color: var(--bg-2);
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 
 .input-group{
@@ -43,7 +43,7 @@
   margin-bottom: 25px;
   padding: 10px;
   outline: none;
-  border: 2px solid var(--gray2);
+  border: 2px solid var(--border-input);
   border-radius: 4px;
 }
 
@@ -51,18 +51,18 @@
   position: absolute;
   left: 10px;
   top: 10px;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #66738A;
   transition: 0.5s;
 }
 
 .input-group input:focus, textarea:focus{
-  border: 2px solid var(--green);
+  border: 2px solid var(--primary-color);
 }
 
 .input-group input:focus ~ label, textarea:focus ~ label{
-  font-size: 14px;
-  color: var(--brown);
+  font-size: 0.875rem;
+  color: var(--secundary-color);
 }
 
 .input-group input:focus + label,
@@ -94,7 +94,7 @@ textarea:not(:placeholder-shown) + label{
     display: flex;
     flex-direction: row-reverse;
     width: auto;
-    margin: 30px 30px 0;
+    margin: 0;
     padding-top: 45px;
   }
   .footer-container{
