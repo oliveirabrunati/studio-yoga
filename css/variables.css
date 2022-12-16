@@ -1,4 +1,4 @@
-@media (prefers-color-scheme: dark){
+/* @media (prefers-color-scheme: dark){ */
   :root{
     --bg-1: #241E1A;
     --bg-2: #181A1B;
@@ -10,9 +10,9 @@
     --button-text: #E8E6E3;
     --link: #52FFE1;
   }
-}
+/* } */
 
-@media(prefers-color-scheme: light){
+/* @media(prefers-color-scheme: light){
   :root{
     --bg-1: #F7F5F4;
     --bg-2: #FFFFFF;
@@ -24,5 +24,5 @@
     --button-text: #FFFFFF;
     --link: #00AF91;
   }
-}
+} */
 
