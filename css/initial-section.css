@@ -89,7 +89,7 @@ header {
     display: none;
   }
   .initial-section{
-    background-image: url('/image/bg-section-one-desktop.png');
+    background-image: var(--bg-image);
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
@@ -97,5 +97,8 @@ header {
   .container{
     width: 450px;
     margin: 160px 30px;
+  }
+  .container p{
+    font-size: 1rem;
   }
 }

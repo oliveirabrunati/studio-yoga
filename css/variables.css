@@ -1,28 +1,27 @@
-@media (prefers-color-scheme: dark){
-  :root{
-    --bg-1: #241E1A;
-    --bg-2: #181A1B;
-    --primary-color: #008C74;
-    --secundary-color: #DDB886;
-    --border-input: #D9D9D9;
-    --bg-input: #3B3B3B;
-    --label-text: #9C9487;
-    --button-text: #E8E6E3;
-    --link: #52FFE1;
-  }
+:root {
+  --bg-1: #f7f5f4;
+  --bg-2: #ffffff;
+  --primary-color: #00af91;
+  --secundary-color: #4c2d1d;
+  --border-input: #d9d9d9;
+  --bg-input: #ffffff;
+  --label-text: #66738a;
+  --button-text: #ffffff;
+  --link: #00af91;
+  --bg-image: url("/image/bg-section-one-desktop.png");
 }
 
-@media(prefers-color-scheme: light){
-  :root{
-    --bg-1: #F7F5F4;
-    --bg-2: #FFFFFF;
-    --primary-color: #00AF91;
-    --secundary-color: #4C2D1D;
-    --border-input: #D9D9D9;
-    --bg-input: #FFFFFF;
-    --label-text: #66738A;
-    --button-text: #FFFFFF;
-    --link: #00AF91;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-1: #241e1a;
+    --bg-2: #181a1b;
+    --primary-color: #008c74;
+    --secundary-color: #ddb886;
+    --border-input: #d9d9d9;
+    --bg-input: #3b3b3b;
+    --label-text: #9c9487;
+    --button-text: #e8e6e3;
+    --link: #52ffe1;
+    --bg-image: url("/image/bg-image-dark.png");
   }
 }
-
