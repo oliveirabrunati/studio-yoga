@@ -29,9 +29,14 @@
 }
 
 .formulario button{
-  color: var(--button-text);
   background-color: var(--primary-color);
+  color: var(--button-text);
   border-color: var(--primary-color);
+}
+
+.formulario button:is(:hover,:focus){
+  background-color: var(--cta-button-color);
+  border-color: var(--cta-button-color);
 }
 
 .input-group{

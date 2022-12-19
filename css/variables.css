@@ -7,6 +7,8 @@
   --bg-input: #ffffff;
   --label-text: #66738a;
   --button-text: #ffffff;
+  --button-color: #464132;
+  --cta-button-color: #007255;
   --link: #00af91;
   --bg-image: url("/image/bg-section-one-desktop.png");
 }
@@ -21,6 +23,7 @@
     --bg-input: #3b3b3b;
     --label-text: #9c9487;
     --button-text: #e8e6e3;
+    --cta-button-color: #45BEA5;
     --link: #52ffe1;
     --bg-image: url("/image/bg-image-dark.png");
   }

@@ -42,14 +42,25 @@ header {
 
 .cta-button {
   background-color: var(--primary-color);
-  border-color: var(--primary-color);
   color: var(--button-text);
+  border-color: var(--primary-color);
+}
+
+.cta-button:is(:hover,:focus){
+  background-color: var(--cta-button-color);
+  border-color: var(--cta-button-color);
 }
 
 .kw-button {
   background-color: transparent;
-  color: var(--secundary-color);
-  border-color: var(--secundary-color);
+  color: var(--button-color);
+  border-color: var(--button-color);
+}
+
+.kw-button:is(:hover,:focus){
+  box-shadow: inset 0 0 0 2em var(--button-color);
+  color: var(--button-text);
+  border-color: var(--button-color);
 }
 
 @media screen and (min-width: 768px) {
