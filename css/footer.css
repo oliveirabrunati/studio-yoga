@@ -1,0 +1,25 @@
+.svg-style:hover path{
+  fill: var(--cta-button-color);
+}
+
+@media screen and (min-width: 992px) {
+  .institucional a{
+    display: inline-block;
+    position: relative;
+  }
+  .institucional a::after{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 2px;
+    width: 0px;
+    transition: 0.5s ease;
+    margin-top: 5px;
+    transform: scaleX(0);
+  }
+  .institucional a:hover::after{
+    width: 100%;
+    transform: scaleX(1);
+    background-color: var(--secundary-color);
+  }
+}

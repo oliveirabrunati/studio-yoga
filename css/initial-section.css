@@ -80,9 +80,32 @@ header {
     display: inline-block;
   }
   .menu a {
-    display: inline-block;
+    padding: 10px 0;
+    margin-right: 30px;
     border-top: none;
+    background-color: none;
+    display: inline-block;
+    position: relative;
     font-size: 1.5rem;
+  }
+  .menu a::after{
+    content: "";
+    position: absolute;
+    transition: 0.5s ease;
+    display: block;
+    height: 2px;
+    width: 0px;
+    margin-top: 5px;
+    transform: scaleX(0);
+  }
+  .menu a:hover{
+    font-weight: initial;
+    background-color: transparent;
+  }
+  .menu a:hover::after{
+    width: 100%;
+    background-color: var(--secundary-color);
+    transform: scaleX(1);
   }
   .logo {
     margin-left: 10px;
