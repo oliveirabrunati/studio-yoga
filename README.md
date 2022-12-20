@@ -28,17 +28,3 @@ Instale as dependências
 npm i
 ```
 
-## Uso
-No diretório do projeto, você pode executar
-```
-npm start
-```
-
-Abra http://localhost:3000 para visualizá-lo em seu navegador.
-
-Otimize a compilação para o melhor desempenho ao executar:
-```
-npm run build
-```
-A página será recarregada quando você fizer alterações.
-
