@@ -27,4 +27,10 @@ Instale as dependências
 ```
 npm i
 ```
+## Uso
 
+Compile o projeto para produção 
+```
+npm run build
+```
+Inicie um servidor local de desenvolvimento (recomendo o Live Server)
