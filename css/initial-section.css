@@ -15,7 +15,7 @@ header {
 }
 
 .menu a {
-  display: block;
+  display: none;
   padding: 10px 30px;
   border-top: 1px solid var(--border-input);
   text-align: left;
@@ -74,7 +74,7 @@ header {
     display: block;
   }
   #icon-menu {
-    display: block;
+    display: none;
   }
   .menu li {
     display: inline-block;
