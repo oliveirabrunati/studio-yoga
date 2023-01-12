@@ -14,8 +14,12 @@ header {
   background-color: var(--bg-1);
 }
 
-.menu a {
+nav{
   display: none;
+}
+
+.menu a {
+  display: block;
   padding: 10px 30px;
   border-top: 1px solid var(--border-input);
   text-align: left;
@@ -35,6 +39,7 @@ header {
 }
 
 #icon-menu {
+  display: block;
   padding: 15px 30px;
   cursor: pointer;
 }
